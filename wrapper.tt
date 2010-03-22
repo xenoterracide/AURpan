@@ -11,3 +11,5 @@ depends=([% depends %])
 url='[% url %]'
 source=('[% source %]')
 md5sums=('[% md5sums %]')
+
+[% content %]

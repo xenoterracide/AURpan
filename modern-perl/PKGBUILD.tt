@@ -1,6 +1,5 @@
 # CPAN Name  : Modern-Perl
-[% wrapper = '../wrapper.tt' %]
-[% INCLUDE wrapper %]
+[% WRAPPER '../wrapper.tt' %]
 build() {
   DIST_DIR="${srcdir}/[% distdir %]"
   export PERL_MM_USE_DEFAULT=1
@@ -21,3 +20,4 @@ build() {
 
   find "$pkgdir" -name .packlist -o -name perllocal.pod -delete
 }
+[% END %]
