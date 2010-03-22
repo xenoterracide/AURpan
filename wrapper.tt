@@ -1,0 +1,13 @@
+# Contributor: [% packager %]
+# Generator  : CPANPLUS::Dist::Arch [% version %]
+pkgname='[% pkgname %]'
+pkgver='[% pkgver %]'
+pkgrel='[% pkgrel %]'
+pkgdesc="[% pkgdesc %]"
+arch=('i686' 'x86_64')
+license=('PerlArtistic' 'GPL')
+options=('!emptydirs')
+depends=([% depends %])
+url='[% url %]'
+source=('[% source %]')
+md5sums=('[% md5sums %]')
