@@ -1,0 +1,5 @@
+# CPAN Name  : WWW-MenuGrinder
+[%- WRAPPER '../wrapper.tt' -%]
+arch=('any')
+license=('PerlArtistic' 'GPL')
+[%- END -%]
