@@ -1,5 +1,5 @@
 [%- DEFAULT
-	arch     = 'any'
+	archs    = ['any']
 	licenses = ['PerlArtistic', 'GPL']
 -%]
 # Contributor: [% packager %]
@@ -8,7 +8,7 @@ pkgname='[% pkgname %]'
 pkgver='[% pkgver %]'
 pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
-arch=('[% arch %]')
+arch=([%-    FOREACH arch    IN archs    -%]'[% arch    %]'[%- END -%])
 license=([%- FOREACH license IN licenses -%]'[% license %]'[%- END -%])
 options=('!emptydirs')
 depends=([% depends %])
