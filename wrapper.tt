@@ -1,32 +1,37 @@
+[%- DEFAULT
+	arch = 'any'
+-%]
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
 pkgname='[% pkgname %]'
 pkgver='[% pkgver %]'
 pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
-[% content %]
+arch=('[% arch %]')
+license=('PerlArtistic' 'GPL')
 options=('!emptydirs')
 depends=([% depends %])
 url='[% url %]'
 source=('[% source %]')
 md5sums=('[% md5sums %]')
+[%- content %]
 
 build() {
   DIST_DIR="${srcdir}/[% distdir %]"
   export PERL_MM_USE_DEFAULT=1
   { cd "$DIST_DIR" &&
-[% IF is_makemaker %]
+[%- IF is_makemaker -%]
     perl Makefile.PL INSTALLDIRS=vendor &&
     make &&
-    [% IF skiptest %]#[% END %]make test &&
+    [%- IF skiptest -%]#[%- END -%]make test &&
     make DESTDIR="$pkgdir" install;
-[% END %]
-[% IF is_modulebuild %]
+[%- END -%]
+[%- IF is_modulebuild -%]
     perl Build.PL --installdirs=vendor --destdir="$pkgdir" &&
     perl Build &&
-    [% IF skiptest %]#[% END %]perl Build test &&
+    [%- IF skiptest -%]#[%- END -%]perl Build test &&
     perl Build install;
-[% END %]
+[%- END -%]
   } || return 1;
 
   find "$pkgdir" -name .packlist -o -name perllocal.pod -delete

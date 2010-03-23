@@ -1,5 +1,3 @@
 # CPAN Name  : Catalyst-Model-MenuGrinder
 [% WRAPPER '../wrapper.tt' -%]
-arch=('any')
-license=('PerlArtistic' 'GPL')
 [%- END -%]
