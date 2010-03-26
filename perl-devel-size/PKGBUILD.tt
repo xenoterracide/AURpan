@@ -1,0 +1,3 @@
+# CPAN Name  : Devel-Size
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
