@@ -1,0 +1,3 @@
+# CPAN Name  : Data-DPath
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
