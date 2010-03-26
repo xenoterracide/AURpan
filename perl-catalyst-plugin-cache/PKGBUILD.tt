@@ -1,0 +1,3 @@
+# CPAN Name  : Catalyst-Plugin-Cache
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
