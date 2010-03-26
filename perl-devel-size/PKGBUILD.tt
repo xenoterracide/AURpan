@@ -1,3 +1,4 @@
 # CPAN Name  : Devel-Size
-[% WRAPPER '../wrapper.tt' -%]
+[% WRAPPER '../wrapper.tt'
+	archs = ['i686' 'x86_64'] -%]
 [%- END -%]
