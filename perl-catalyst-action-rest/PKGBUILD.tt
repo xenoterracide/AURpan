@@ -1,0 +1,3 @@
+# CPAN Name  : Catalyst-Action-REST
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
