@@ -1,0 +1,3 @@
+# CPAN Name  : DBIx-Class-IntrospectableM2M
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
