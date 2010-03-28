@@ -1,0 +1,3 @@
+# CPAN Name  : Compress-Raw-Zlib
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
