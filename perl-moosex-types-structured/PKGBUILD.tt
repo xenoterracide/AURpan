@@ -1,0 +1,4 @@
+# CPAN Name  : MooseX-Types-Structured
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
