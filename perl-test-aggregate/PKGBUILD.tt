@@ -1,0 +1,4 @@
+# CPAN Name  : Test-Aggregate
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
