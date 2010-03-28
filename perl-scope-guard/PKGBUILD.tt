@@ -1,0 +1,3 @@
+# CPAN Name  : Scope-Guard
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
