@@ -1,4 +1,4 @@
 # CPAN Name  : Compress-Raw-Zlib
 [% WRAPPER '../wrapper.tt'
-	archs = ['i686' 'x86_64'] -%]
+	arch = ['i686' 'x86_64'] -%]
 [%- END -%]
