@@ -1,0 +1,3 @@
+# CPAN Name  : Devel-PartialDump
+[% WRAPPER '../wrapper.tt' -%]
+[%- END -%]
