@@ -1,6 +1,7 @@
 [%- DEFAULT
 	archs    = ['any']
 	licenses = ['PerlArtistic', 'GPL']
+	options  = ['!emptydirs']
 -%]
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
@@ -10,7 +11,7 @@ pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
 arch=('[% archs.join('\' \'') %]')
 license=('[% licenses.join('\' \'') %]')
-options=('!emptydirs')
+options=('[% options.join('\' \'') %]')
 depends=([% depends %])
 url='[% url %]'
 source=('[% source %]')
