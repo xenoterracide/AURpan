@@ -1,0 +1,4 @@
+# CPAN Name  : Form-Sensible
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
