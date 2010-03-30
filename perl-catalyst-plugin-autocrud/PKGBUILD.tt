@@ -1,3 +1,0 @@
-# CPAN Name  : Catalyst-Plugin-AutoCRUD
-[% WRAPPER '../wrapper.tt' -%]
-[%- END -%]
