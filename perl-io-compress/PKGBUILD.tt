@@ -1,0 +1,4 @@
+# CPAN Name  : IO-Compress
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
