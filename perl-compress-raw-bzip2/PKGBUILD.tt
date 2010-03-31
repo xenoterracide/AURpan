@@ -1,0 +1,4 @@
+# CPAN Name  : Compress-Raw-Bzip2
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
