@@ -1,0 +1,4 @@
+# CPAN Name  : Catalyst-ActionRole-MatchRequestMethod
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
