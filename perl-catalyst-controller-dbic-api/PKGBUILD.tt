@@ -1,0 +1,4 @@
+# CPAN Name  : Catalyst-Controller-DBIC-API
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
