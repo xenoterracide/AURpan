@@ -1,0 +1,4 @@
+# CPAN Name  : local-lib
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
