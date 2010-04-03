@@ -1,0 +1,4 @@
+# CPAN Name  : autobox
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
