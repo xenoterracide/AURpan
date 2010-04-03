@@ -1,0 +1,4 @@
+# CPAN Name  : CatalystX-Declare
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
