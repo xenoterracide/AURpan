@@ -1,0 +1,4 @@
+# CPAN Name  : Any-Moose
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
