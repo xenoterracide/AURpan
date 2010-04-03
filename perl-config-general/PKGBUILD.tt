@@ -1,0 +1,4 @@
+# CPAN Name  : Config-General
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
