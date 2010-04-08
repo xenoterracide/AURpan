@@ -1,0 +1,4 @@
+# CPAN Name  : Lingua-Stem-It
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
