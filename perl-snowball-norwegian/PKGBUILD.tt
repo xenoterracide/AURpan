@@ -1,0 +1,3 @@
+# CPAN Name  : Snowball-Norwegian
+[% PROCESS '../wrapper.tt'
+-%]
