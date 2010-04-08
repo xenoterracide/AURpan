@@ -1,0 +1,4 @@
+# CPAN Name  : HTML-Mason
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
