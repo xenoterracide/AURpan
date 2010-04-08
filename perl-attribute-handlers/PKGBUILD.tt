@@ -1,0 +1,4 @@
+# CPAN Name  : Attribute-Handlers
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
