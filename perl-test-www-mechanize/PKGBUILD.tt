@@ -1,0 +1,4 @@
+# CPAN Name  : Test-WWW-Mechanize
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
