@@ -1,0 +1,3 @@
+# CPAN Name  : Lingua-Stem-Snowball-Da
+[% PROCESS '../wrapper.tt'
+-%]
