@@ -1,0 +1,4 @@
+# CPAN Name  : MooseX-Traits
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
