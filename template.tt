@@ -1,3 +1,2 @@
-[% WRAPPER '../wrapper.tt'
+[% PROCESS '../wrapper.tt'
 -%]
-[%- END -%]
