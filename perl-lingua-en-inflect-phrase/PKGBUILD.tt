@@ -1,0 +1,4 @@
+# CPAN Name  : Lingua-EN-Inflect-Phrase
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
