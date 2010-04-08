@@ -1,0 +1,4 @@
+# CPAN Name  : Memoize-ExpireLRU
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
