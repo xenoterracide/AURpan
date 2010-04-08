@@ -1,0 +1,4 @@
+# CPAN Name  : Lingua-PT-Stemmer
+[% WRAPPER '../wrapper.tt'
+-%]
+[%- END -%]
