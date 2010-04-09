@@ -1,0 +1,2 @@
+# CPAN Name  : DBIx-Class-ResultSet-RecursiveUpdate
+[% PROCESS '../wrapper.tt' %]
