@@ -1,4 +1,2 @@
 # CPAN Name  : DBIx-Class-Schema-Loader
-[% WRAPPER '../wrapper.tt'
--%]
-[%- END -%]
+[% PROCESS '../wrapper.tt' %]

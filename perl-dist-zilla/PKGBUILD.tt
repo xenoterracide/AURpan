@@ -1,4 +1,2 @@
 # CPAN Name  : Dist-Zilla
-[% WRAPPER '../wrapper.tt'
--%]
-[%- END -%]
+[% PROCESS '../wrapper.tt' %]
