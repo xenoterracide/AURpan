@@ -1,0 +1,2 @@
+# CPAN Name  : Catalyst-Authentication-Store-DBIx-Class
+[% PROCESS '../wrapper.tt' %]
