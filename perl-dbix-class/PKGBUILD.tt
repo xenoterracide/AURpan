@@ -1,0 +1,2 @@
+# CPAN Name  : DBIx-Class
+[% PROCESS '../wrapper.tt' %]
