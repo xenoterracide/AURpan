@@ -1,3 +1,2 @@
 # CPAN Name  : SQL-Abstract
-[% WRAPPER '../wrapper.tt' -%]
-[%- END -%]
+[% PROCESS '../wrapper.tt' %]
