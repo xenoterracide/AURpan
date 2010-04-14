@@ -1,3 +1,2 @@
 # CPAN Name  : WWW-Mechanize-TreeBuilder
-[% WRAPPER '../wrapper.tt' -%]
-[%- END -%]
+[% PROCESS '../wrapper.tt' %]
