@@ -1,3 +1,2 @@
 # CPAN Name  : Catalyst-View-JSON
-[% WRAPPER '../wrapper.tt' -%]
-[%- END -%]
+[% PROCESS '../wrapper.tt' %]
