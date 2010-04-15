@@ -1,0 +1,2 @@
+# CPAN Name  : Sysadm-Install
+[% PROCESS '../wrapper.tt' %]
