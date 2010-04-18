@@ -1,2 +1,4 @@
 # CPAN Name  : Scope-Upper
-[% PROCESS '../wrapper.tt' %]
+[% PROCESS '../wrapper.tt'
+	arch=['i686' 'x86_64']
+%]
