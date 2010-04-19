@@ -1,4 +1,4 @@
 # CPAN Name  : Mouse
 [% PROCESS '../wrapper.tt'
 	arch = ['i686' 'x86_64']
--%]
+%]
