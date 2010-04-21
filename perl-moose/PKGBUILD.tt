@@ -1,4 +1,4 @@
 # CPAN Name  : Moose
-[% WRAPPER '../wrapper.tt'
-	arch = ['i686' 'x86_64'] -%]
-[%- END -%]
+[% PROCESS '../wrapper.tt'
+	arch = ['i686' 'x86_64']
+%]
