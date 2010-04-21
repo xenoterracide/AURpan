@@ -5,24 +5,34 @@
 -%]
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
-pkgname='[% pkgname %]'
-pkgver='[% pkgver %]'
+pkgname='[% pkgname %][% IF git_uri %]-git[% END %]'
+pkgver='[% UNLESS git_uri %][% pkgver %][% ELSE %][% 20100101 %][% END %]'
 pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
 arch=('[% arch.join('\' \'') %]')
 license=('[% license.join('\' \'') %]')
 options=('[% options.join('\' \'') %]')
 depends=([% depends %])
-[% IF provides -%]provides=('[%- provides.join('\' \'') %]')[%- END -%]
+[% IF provides -%]provides=('[% provides.join('\' \'') %]')[%- END %]
 url='[% url %]'
-source=('[% source %]')
+[% UNLESS git_uri %]source=('[% source %]')[% END -%]
 md5sums=('[% md5sums %]')
-[%- content %]
 
 build() {
   DIST_DIR="${srcdir}/[% distdir %]"
   export PERL_MM_USE_DEFAULT=1
-  { cd "$DIST_DIR" &&
+  {
+[% IF git_uri -%]
+	if [ -d $DIST_DIR ] ; then
+		cd $DIST_DIR
+		perl Build clean
+		git remote update &&
+    	git checkout orgin/master
+	else
+		git clone [% git_uri %] $DIST_DIR
+	fi
+[% END -%]
+	cd "$DIST_DIR" &&
 [% IF is_makemaker -%]
     perl Makefile.PL INSTALLDIRS=vendor &&
     make &&
