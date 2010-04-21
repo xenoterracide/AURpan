@@ -13,7 +13,7 @@ arch=('[% arch.join('\' \'') %]')
 license=('[% license.join('\' \'') %]')
 options=('[% options.join('\' \'') %]')
 depends=([% depends %])
-[%- IF provides -%]provides=('[%- provides.join('\' \'') %]')[%- END -%]
+[% IF provides -%]provides=('[%- provides.join('\' \'') %]')[%- END -%]
 url='[% url %]'
 source=('[% source %]')
 md5sums=('[% md5sums %]')
@@ -23,18 +23,18 @@ build() {
   DIST_DIR="${srcdir}/[% distdir %]"
   export PERL_MM_USE_DEFAULT=1
   { cd "$DIST_DIR" &&
-[%- IF is_makemaker -%]
+[% IF is_makemaker -%]
     perl Makefile.PL INSTALLDIRS=vendor &&
     make &&
-    [%- IF skiptest -%]make test &&[%- END -%]
+    [%- IF skiptest -%]make test &&[%- END %]
     make DESTDIR="$pkgdir" install;
-[%- END -%]
+[% END -%]
 [%- IF is_modulebuild -%]
     perl Build.PL --installdirs=vendor --destdir="$pkgdir" &&
     perl Build &&
-    [%- IF skiptest -%]perl Build test &&[%- END -%]
+    [%- IF skiptest -%]perl Build test &&[%- END %]
     perl Build install;
-[%- END -%]
+[% END -%]
   } || return 1;
 
   find "$pkgdir" -name .packlist -o -name perllocal.pod -delete
