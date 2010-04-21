@@ -5,8 +5,8 @@
 -%]
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
-pkgname='[% pkgname %][% IF git_uri %]-git[% END %]'
-pkgver='[% UNLESS git_uri %][% pkgver %][% ELSE %][% 20100101 %][% END %]'
+pkgname='[% pkgname %][% IF vcs %]-[% vcs %][% END %]'
+pkgver='[% UNLESS vcs %][% pkgver %][% ELSE %][% 20100101 %][% END %]'
 pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
 arch=('[% arch.join('\' \'') %]')
@@ -15,21 +15,23 @@ options=('[% options.join('\' \'') %]')
 depends=([% depends %])
 [% IF provides -%]provides=('[% provides.join('\' \'') %]')[%- END %]
 url='[% url %]'
-[% UNLESS git_uri %]source=('[% source %]')[% END -%]
+[% UNLESS vcs %]
+source=('[% source %]')
 md5sums=('[% md5sums %]')
+[% END -%]
 
 build() {
   DIST_DIR="${srcdir}/[% distdir %]"
   export PERL_MM_USE_DEFAULT=1
   {
-[% IF git_uri -%]
+[% IF vcs == 'git' -%]
 	if [ -d $DIST_DIR ] ; then
 		cd $DIST_DIR
 		perl Build clean
 		git remote update &&
     	git checkout orgin/master
 	else
-		git clone [% git_uri %] $DIST_DIR
+		git clone [% vcs_uri %] $DIST_DIR
 	fi
 [% END -%]
 	cd "$DIST_DIR" &&
