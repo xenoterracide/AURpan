@@ -1,0 +1,5 @@
+# CPAN Name  : Template-ShowStartStop
+[% mypkgver = pkgname _ "=" _ pkgver; PROCESS '../wrapper.tt'
+	provides = [ mypkgver ]
+	git_uri = 'git://github.com/xenoterracide/Template-ShowStartStop.git'
+%]
