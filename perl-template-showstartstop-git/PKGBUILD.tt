@@ -1,5 +1,5 @@
 # CPAN Name  : Template-ShowStartStop
-[%- USE date(format = '%Y%m%d') -%]
+[% USE date(format = '%Y%m%d') -%]
 [% mypkgver = pkgname _ "=" _ pkgver;
 	PROCESS '../wrapper.tt'
 	datepkgver = date.format
