@@ -1,0 +1,2 @@
+# CPAN Name  : Unicode-Normalize
+[% PROCESS '../wrapper.tt' %]
