@@ -1,7 +1,8 @@
 [%- DEFAULT
-	arch    = ['any']
-	license = ['PerlArtistic', 'GPL']
-	options = ['!emptydirs']
+	arch     = ['any']
+	license  = ['PerlArtistic', 'GPL']
+	options  = ['!emptydirs']
+	skiptest = 0
 -%]
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
@@ -38,13 +39,13 @@ build() {
 [% IF is_makemaker -%]
     perl Makefile.PL INSTALLDIRS=vendor &&
     make &&
-    [%- IF skiptest -%]make test &&[%- END %]
+    [% UNLESS skiptest %]make test &&[%- END %]
     make DESTDIR="$pkgdir" install;
 [% END -%]
 [%- IF is_modulebuild -%]
     perl Build.PL --installdirs=vendor --destdir="$pkgdir" &&
     perl Build &&
-    [%- IF skiptest -%]perl Build test &&[%- END %]
+    [% UNLESS skiptest %]perl Build test &&[% END %]
     perl Build install;
 [% END -%]
   } || return 1;
