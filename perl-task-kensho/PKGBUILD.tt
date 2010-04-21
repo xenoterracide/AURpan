@@ -1,0 +1,2 @@
+# CPAN Name  : Task-Kensho
+[% PROCESS '../wrapper.tt' %]
