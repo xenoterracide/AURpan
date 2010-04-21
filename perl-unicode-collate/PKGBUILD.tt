@@ -1,0 +1,2 @@
+# CPAN Name  : Unicode-Collate
+[% PROCESS '../wrapper.tt' %]
