@@ -1,4 +1,4 @@
 # CPAN Name  : Test-WWW-Mechanize
 [% PROCESS '../wrapper.tt'
-	skiptest = 0
+	skiptest = 1
 %]
