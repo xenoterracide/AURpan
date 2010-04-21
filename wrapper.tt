@@ -6,7 +6,7 @@
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
 pkgname='[% pkgname %][% IF vcs %]-[% vcs %][% END %]'
-pkgver='[% UNLESS vcs %][% pkgver %][% ELSE %][% 20100101 %][% END %]'
+pkgver='[% UNLESS vcs %][% pkgver %][% ELSE %][% datepkgver %][% END %]'
 pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
 arch=('[% arch.join('\' \'') %]')
