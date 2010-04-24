@@ -1,0 +1,2 @@
+# CPAN Name  : Moose-Autobox
+[% PROCESS '../wrapper.tt' %]
