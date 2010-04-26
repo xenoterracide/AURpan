@@ -4,6 +4,7 @@
 	PROCESS '../wrapper.tt'
 	datepkgver = date.format
 	vcs = 'git'
+	vcs_branch = 'refactor'
 	provides = [ mypkgver ]
 	vcs_uri = 'git://github.com/xenoterracide/Template-ShowStartStop.git'
 %]
