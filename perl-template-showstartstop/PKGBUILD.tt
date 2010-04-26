@@ -1,0 +1,2 @@
+# CPAN Name  : Template-ShowStartStop
+[% PROCESS '../wrapper.tt' %]
