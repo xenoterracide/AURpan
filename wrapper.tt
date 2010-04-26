@@ -6,7 +6,7 @@
 -%]
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
-pkgname='[% pkgname %][% IF vcs %]-[% vcs %][% END %]'
+pkgname='[% pkgname %][% IF vcs %]-[% vcs %][% END; IF vcs_branch %]-[% vcs_branch %][% END %]'
 pkgver='[% UNLESS vcs %][% pkgver %][% ELSE %][% datepkgver %][% END %]'
 pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
@@ -30,7 +30,7 @@ build() {
 		cd $DIST_DIR
 		perl Build clean
 		git remote update &&
-    	git checkout orgin/master
+		git checkout orgin/[% IF vcs_branch; vcs_branch; ELSE %]master[% END %]
 	else
 		git clone [% vcs_uri %] $DIST_DIR
 	fi
