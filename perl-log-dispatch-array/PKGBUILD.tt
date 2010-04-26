@@ -1,0 +1,2 @@
+# CPAN Name  : Log-Dispatch-Array
+[% PROCESS '../wrapper.tt' %]
