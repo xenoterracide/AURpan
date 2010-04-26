@@ -1,0 +1,2 @@
+# CPAN Name  : Version-Requirements
+[% PROCESS '../wrapper.tt' %]
