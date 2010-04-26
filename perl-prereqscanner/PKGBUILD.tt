@@ -1,0 +1,2 @@
+# CPAN Name  : Perl-PrereqScanner
+[% PROCESS '../wrapper.tt' %]
