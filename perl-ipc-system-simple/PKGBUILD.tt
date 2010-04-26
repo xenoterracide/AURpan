@@ -1,0 +1,2 @@
+# CPAN Name  : IPC-System-Simple
+[% PROCESS '../wrapper.tt' %]
