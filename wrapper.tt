@@ -30,7 +30,7 @@ build() {
 		cd $DIST_DIR
 		perl Build clean
 		git remote update &&
-		git checkout orgin/[% IF vcs_branch; vcs_branch; ELSE %]master[% END %]
+		git checkout origin/[% IF vcs_branch; vcs_branch; ELSE %]master[% END %]
 	else
 		git clone [% vcs_uri %] $DIST_DIR
 	fi
