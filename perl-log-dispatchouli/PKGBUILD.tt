@@ -1,0 +1,2 @@
+# CPAN Name  : Log-Dispatchouli
+[% PROCESS '../wrapper.tt' %]
