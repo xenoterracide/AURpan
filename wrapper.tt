@@ -39,7 +39,17 @@ build() {
 		git checkout origin/[% IF vcs_branch; vcs_branch; ELSE %]master[% END %]
 	fi
 [% END -%]
+[% IF vcs -%]
+	if [ -f $DIST_DIR/dist.ini ] ; then
+		cd $DIST_DIR
+		dzil build
+		cd $DIST_DIR/[% cpan_name %]-[% pkgver %]
+	else
+		cd "$DIST_DIR" &&
+	fi
+[% ELSE %]
 	cd "$DIST_DIR" &&
+[% END %]
 [% IF is_makemaker -%]
     perl Makefile.PL INSTALLDIRS=vendor &&
     make &&
