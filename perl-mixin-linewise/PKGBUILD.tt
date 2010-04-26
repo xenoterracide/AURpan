@@ -1,0 +1,2 @@
+# CPAN Name  : Mixin-Linewise
+[% PROCESS '../wrapper.tt' %]
