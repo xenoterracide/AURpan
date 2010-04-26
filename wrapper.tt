@@ -6,6 +6,8 @@
 -%]
 # Contributor: [% packager %]
 # Generator  : CPANPLUS::Dist::Arch [% version %]
+# Template @ http://github.com/xenoterracide/AURpan/blob/master/[% pkgname %]/PKGBUILD.tt
+
 pkgname='[% pkgname %][% IF vcs %]-[% vcs %][% END; IF vcs_branch %]-[% vcs_branch %][% END %]'
 pkgver='[% UNLESS vcs %][% pkgver %][% ELSE %][% datepkgver %][% END %]'
 pkgrel='[% pkgrel %]'
