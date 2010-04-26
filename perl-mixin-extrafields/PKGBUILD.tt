@@ -1,0 +1,2 @@
+# CPAN Name  : Mixin-ExtraFields
+[% PROCESS '../wrapper.tt' %]
