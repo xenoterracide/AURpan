@@ -43,9 +43,9 @@ build() {
 	if [ -f $DIST_DIR/dist.ini ] ; then
 		cd $DIST_DIR
 		dzil build
-		cd $DIST_DIR/[% cpan_name %]-[% pkgver %]
+		cd $DIST_DIR/[% distdir %]-*
 	else
-		cd "$DIST_DIR" &&
+		cd "$DIST_DIR"
 	fi
 [% ELSE %]
 	cd "$DIST_DIR" &&
