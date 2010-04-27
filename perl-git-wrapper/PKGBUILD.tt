@@ -1,0 +1,2 @@
+# CPAN Name  : Git-Wrapper
+[% PROCESS '../wrapper.tt' %]
