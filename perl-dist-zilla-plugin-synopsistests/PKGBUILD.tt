@@ -1,2 +1,2 @@
 # CPAN Name  : Dist-Zilla-Plugin-SynopsisTests
-% PROCESS '../wrapper.tt' %]
+[% PROCESS '../wrapper.tt' %]
