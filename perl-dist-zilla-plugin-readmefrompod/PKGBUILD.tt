@@ -1,0 +1,2 @@
+# CPAN Name  : Dist-Zilla-Plugin-ReadmeFromPod
+[% PROCESS '../wrapper.tt' %]
