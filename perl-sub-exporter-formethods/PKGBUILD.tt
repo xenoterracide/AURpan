@@ -1,0 +1,2 @@
+# CPAN Name  : Sub-Exporter-ForMethods
+[% PROCESS '../wrapper.tt' %]
