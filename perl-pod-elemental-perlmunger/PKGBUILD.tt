@@ -1,0 +1,2 @@
+# CPAN Name  : Pod-Elemental-PerlMunger
+[% PROCESS '../wrapper.tt' %]
