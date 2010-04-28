@@ -1,0 +1,2 @@
+# CPAN Name  : Test-Synopsis
+[% PROCESS '../wrapper.tt' %]
