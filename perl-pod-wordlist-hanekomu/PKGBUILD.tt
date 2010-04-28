@@ -1,0 +1,2 @@
+# CPAN Name  : Pod-Wordlist-hanekomu
+[% PROCESS '../wrapper.tt' %]
