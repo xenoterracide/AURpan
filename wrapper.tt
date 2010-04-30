@@ -14,11 +14,11 @@ pkgver='[% UNLESS vcs %][% pkgver %][% ELSE %][% datepkgver %][% END %]'
 pkgrel='[% pkgrel %]'
 pkgdesc="[% pkgdesc %]"
 arch=('[% arch.join('\' \'') %]')
+url='[% url %]'
 license=('[% license.join('\' \'') %]')
-options=('[% options.join('\' \'') %]')
 depends=([% depends %])
 [% IF provides -%]provides=('[% provides.join('\' \'') %]')[%- END %]
-url='[% url %]'
+options=('[% options.join('\' \'') %]')
 [% UNLESS vcs %]
 source=('[% source %]')
 md5sums=('[% md5sums %]')
