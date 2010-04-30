@@ -1,0 +1,2 @@
+# CPAN Name  : Catalyst-Model-DBIC-Schema
+[% PROCESS '../wrapper.tt' %]
