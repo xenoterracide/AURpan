@@ -1,0 +1,2 @@
+# CPAN Name  : Safe
+[% PROCESS '../wrapper.tt' %]
