@@ -1,0 +1,2 @@
+# CPAN Name  : Text-Template
+[% PROCESS '../wrapper.tt' %]
