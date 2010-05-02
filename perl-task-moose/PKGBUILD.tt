@@ -1,0 +1,2 @@
+# CPAN Name  : Task-Moose
+[% PROCESS '../wrapper.tt' %]
