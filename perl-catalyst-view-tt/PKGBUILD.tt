@@ -1,4 +1,2 @@
 # CPAN Name  : Catalyst-View-TT
-[% WRAPPER '../wrapper.tt'
--%]
-[%- END -%]
+[% PROCESS '../wrapper.tt' %]
