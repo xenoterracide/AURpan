@@ -1,0 +1,2 @@
+# CPAN Name  : constant
+[% PROCESS '../wrapper.tt' %]
