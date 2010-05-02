@@ -1,0 +1,2 @@
+# CPAN Name  : Time-Piece
+[% PROCESS '../wrapper.tt' %]
