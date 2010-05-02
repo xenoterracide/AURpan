@@ -1,0 +1,2 @@
+# CPAN Name  : Template-Timer
+[% PROCESS '../wrapper.tt' %]
