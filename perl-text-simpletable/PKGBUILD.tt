@@ -1,0 +1,2 @@
+# CPAN Name  : Text-SimpleTable
+[% PROCESS '../wrapper.tt' %]
