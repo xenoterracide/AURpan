@@ -1,4 +1,2 @@
 # CPAN Name  : Locale-Codes
-[% WRAPPER '../wrapper.tt'
--%]
-[%- END -%]
+[% PROCESS '../wrapper.tt' %]
