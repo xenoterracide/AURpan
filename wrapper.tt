@@ -26,7 +26,7 @@ md5sums=('[% md5sums %]')
 
 build() {
   DIST_DIR="${srcdir}/[% distdir %]"
-  export PERL_MM_USE_DEFAULT=1
+  export PERL_AUTOINSTALL=--skipdeps PERL_MM_USE_DEFAULT=1
   {
 [% IF vcs == 'git' -%]
 	if [ -d $DIST_DIR ] ; then
