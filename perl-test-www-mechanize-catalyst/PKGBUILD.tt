@@ -1,0 +1,2 @@
+# CPAN Name  : Test-WWW-Mechanize-Catalyst
+[% PROCESS '../wrapper.tt' %]
