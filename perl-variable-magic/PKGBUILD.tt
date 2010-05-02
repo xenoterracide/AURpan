@@ -1,0 +1,2 @@
+# CPAN Name  : Variable-Magic
+[% PROCESS '../wrapper.tt' %]
