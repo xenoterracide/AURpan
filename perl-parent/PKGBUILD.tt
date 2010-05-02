@@ -1,0 +1,2 @@
+# CPAN Name  : parent
+[% PROCESS '../wrapper.tt' %]
