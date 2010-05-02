@@ -1,0 +1,2 @@
+# CPAN Name  : Locale-Maketext-Simple
+[% PROCESS '../wrapper.tt' %]
