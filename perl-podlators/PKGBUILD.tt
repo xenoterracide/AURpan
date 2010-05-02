@@ -1,0 +1,2 @@
+# CPAN Name  : podlators
+[% PROCESS '../wrapper.tt' %]
