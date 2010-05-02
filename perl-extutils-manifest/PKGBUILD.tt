@@ -1,0 +1,2 @@
+# CPAN Name  : ExtUtils-Manifest
+[% PROCESS '../wrapper.tt' %]
