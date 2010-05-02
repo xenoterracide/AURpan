@@ -1,0 +1,2 @@
+# CPAN Name  : JSON-Any
+[% PROCESS '../wrapper.tt' %]
