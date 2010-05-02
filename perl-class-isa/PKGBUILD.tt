@@ -1,0 +1,2 @@
+# CPAN Name  : Class-ISA
+[% PROCESS '../wrapper.tt' %]
