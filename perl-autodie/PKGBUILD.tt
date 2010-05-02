@@ -1,0 +1,2 @@
+# CPAN Name  : autodie
+[% PROCESS '../wrapper.tt' %]
