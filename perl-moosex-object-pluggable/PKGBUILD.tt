@@ -1,0 +1,2 @@
+# CPAN Name  : MooseX-Object-Pluggable
+[% PROCESS '../wrapper.tt' %]
