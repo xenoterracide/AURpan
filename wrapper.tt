@@ -18,6 +18,7 @@ url='[% url %]'
 license=('[% license.join('\' \'') %]')
 depends=([% depends %])
 [% IF provides -%]provides=('[% provides.join('\' \'') %]')[%- END %]
+[% IF replaces -%]replaces=('[% replaces.join('\' \'') %]')[%- END %]
 options=('[% options.join('\' \'') %]')
 [% UNLESS vcs %]
 source=('[% source %]')
