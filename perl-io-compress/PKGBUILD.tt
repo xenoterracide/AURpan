@@ -1,2 +1,5 @@
 # CPAN Name  : IO-Compress
-[% PROCESS '../wrapper.tt' %]
+[% zlib = "perl-compress-zlib=$pkgver";
+	PROCESS '../wrapper.tt'
+	provides = [ zlib ]
+%]
