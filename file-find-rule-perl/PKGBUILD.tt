@@ -1,0 +1,2 @@
+# CPAN Name  : File-Find-Rule-Perl
+[% PROCESS '../wrapper.tt' %]
