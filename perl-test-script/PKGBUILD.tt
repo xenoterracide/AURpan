@@ -1,0 +1,2 @@
+# CPAN Name  : Test-Script
+[% PROCESS '../wrapper.tt' %]
