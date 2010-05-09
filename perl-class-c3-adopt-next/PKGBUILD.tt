@@ -1,0 +1,2 @@
+# CPAN Name  : Class-C3-Adopt-NEXT
+[% PROCESS '../wrapper.tt' %]
