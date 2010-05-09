@@ -1,0 +1,2 @@
+# CPAN Name  : Software-License-GPL3andArtistic2
+[% PROCESS '../wrapper.tt' %]
