@@ -1,0 +1,9 @@
+# CPAN Name  : Software-License-GPL3andArtistic2
+[% USE date(format = '%Y%m%d') -%]
+[% mypkgver = pkgname _ "=" _ pkgver;
+	PROCESS '../wrapper.tt'
+	datepkgver = date.format
+	vcs = 'git'
+	provides = [ mypkgver ]
+	vcs_uri = 'git://github.com/xenoterracide/software-license-gpl3-artistic20.git'
+%]
