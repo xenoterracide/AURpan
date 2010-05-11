@@ -1,0 +1,2 @@
+# CPAN Name  : Tenjin
+[% PROCESS '../wrapper.tt' %]
