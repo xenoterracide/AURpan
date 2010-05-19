@@ -1,2 +1,2 @@
-# CPAN Name  : Module-Load-Conditional
+# CPAN Name  : perl-module-load-conditional
 [% PROCESS '../wrapper.tt' %]
