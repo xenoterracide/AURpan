@@ -1,2 +1,5 @@
 # CPAN Name  : Probe-Perl
-[% PROCESS '../wrapper.tt' %]
+[% oldpkgprovides = 'probe-perl=' _ pkgver;
+	PROCESS '../wrapper.tt'
+	provides = [ oldpkgprovides ]
+%]
