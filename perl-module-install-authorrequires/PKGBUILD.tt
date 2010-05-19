@@ -1,0 +1,2 @@
+# CPAN Name  : Module-Install-AuthorRequires
+[% PROCESS '../wrapper.tt' %]
