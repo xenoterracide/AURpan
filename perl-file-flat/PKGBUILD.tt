@@ -1,0 +1,2 @@
+# CPAN Name  : File-Flat
+[% PROCESS '../wrapper.tt' %]
