@@ -1,0 +1,2 @@
+# CPAN Name  : Algorithm-Dependency
+[% PROCESS '../wrapper.tt' %]
