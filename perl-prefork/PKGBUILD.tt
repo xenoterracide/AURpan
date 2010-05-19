@@ -1,0 +1,2 @@
+# CPAN Name  : prefork
+[% PROCESS '../wrapper.tt' %]
