@@ -1,0 +1,2 @@
+# CPAN Name  : IPC-SysV
+[% PROCESS '../wrapper.tt' %]
