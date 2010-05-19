@@ -1,0 +1,2 @@
+# CPAN Name  : Pod-Tests
+[% PROCESS '../wrapper.tt' %]
