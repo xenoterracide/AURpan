@@ -1,0 +1,2 @@
+# CPAN Name  : CPAN-Meta
+[% PROCESS '../wrapper.tt' %]
