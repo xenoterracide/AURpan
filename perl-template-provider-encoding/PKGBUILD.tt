@@ -1,0 +1,2 @@
+# CPAN Name  : Template-Provider-Encoding
+[% PROCESS '../wrapper.tt' %]
