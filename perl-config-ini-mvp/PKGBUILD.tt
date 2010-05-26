@@ -1,0 +1,2 @@
+# CPAN Name  : Config-INI-MVP
+[% PROCESS '../wrapper.tt' %]
