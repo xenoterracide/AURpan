@@ -1,0 +1,2 @@
+# CPAN Name  : Config-MVP
+[% PROCESS '../wrapper.tt' %]
