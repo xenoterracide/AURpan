@@ -1,0 +1,2 @@
+# CPAN Name  : Sub-Name
+[% PROCESS '../wrapper.tt' %]
