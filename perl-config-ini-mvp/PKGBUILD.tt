@@ -1,2 +1,10 @@
 # CPAN Name  : Config-INI-MVP
-[% PROCESS '../wrapper.tt' %]
+[% WRAPPER '../wrapper.tt' %]
+# remove conflicting files per bug https://rt.cpan.org/Public/Bug/Display.html?id=57844
+# please use perl-config-mvp-reader-ini for these files instead
+if [ -d "$pkgdir/usr/share/perl5/vendor_perl/Config/MVP/Reader/" ]
+	then
+		rm "$pkgdir/usr/share/perl5/vendor_perl/Config/MVP/Reader/INI.pm"
+		rm "$pkgdir/usr/share/man/man3/Config::MVP::Reader::INI.3pm"
+fi
+[%- END -%]
