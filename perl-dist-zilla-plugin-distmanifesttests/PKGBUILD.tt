@@ -1,0 +1,2 @@
+# CPAN Name  : Dist-Zilla-Plugin-DistManifestTests
+[% PROCESS '../wrapper.tt' %]
