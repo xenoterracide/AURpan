@@ -1,0 +1,2 @@
+# CPAN Name  : Test-DistManifest
+[% PROCESS '../wrapper.tt' %]
