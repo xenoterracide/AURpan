@@ -1,0 +1,2 @@
+# CPAN Name  : Test-Perl-Critic
+[% PROCESS '../wrapper.tt' %]
