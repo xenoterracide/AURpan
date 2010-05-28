@@ -1,0 +1,2 @@
+# CPAN Name  : Try-Tiny
+[% PROCESS '../wrapper.tt' %]
