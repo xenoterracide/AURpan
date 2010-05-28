@@ -1,0 +1,2 @@
+# CPAN Name  : Test-Kwalitee
+[% PROCESS '../wrapper.tt' %]
