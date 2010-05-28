@@ -1,0 +1,2 @@
+# CPAN Name  : Test-YAML-Valid
+[% PROCESS '../wrapper.tt' %]
