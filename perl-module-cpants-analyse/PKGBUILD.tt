@@ -1,0 +1,2 @@
+# CPAN Name  : Module-CPANTS-Analyse
+[% PROCESS '../wrapper.tt' %]
