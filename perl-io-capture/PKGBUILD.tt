@@ -1,0 +1,2 @@
+# CPAN Name  : IO-Capture
+[% PROCESS '../wrapper.tt' %]
