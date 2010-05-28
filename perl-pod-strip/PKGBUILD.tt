@@ -1,0 +1,2 @@
+# CPAN Name  : Pod-Strip
+[% PROCESS '../wrapper.tt' %]
