@@ -1,2 +1,4 @@
 # CPAN Name  : Scalar-List-Utils
-[% PROCESS '../wrapper.tt' %]
+[% PROCESS '../wrapper.tt'
+	replaces=['perl-scalar-util']
+%]
