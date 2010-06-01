@@ -1,4 +1,5 @@
 # CPAN Name  : Scalar-List-Utils
 [% PROCESS '../wrapper.tt'
+	arch=['i686' 'x86_64']
 	replaces=['perl-scalar-util']
 %]
