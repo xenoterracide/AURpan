@@ -1,0 +1,2 @@
+# CPAN Name  : Perl-Version
+[% PROCESS '../wrapper.tt' %]
