@@ -1,0 +1,2 @@
+# CPAN Name  : File-HomeDir
+[% PROCESS '../wrapper.tt' %]
