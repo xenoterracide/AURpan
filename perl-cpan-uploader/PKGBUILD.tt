@@ -1,0 +1,2 @@
+# CPAN Name  : CPAN-Uploader
+[% PROCESS '../wrapper.tt' %]
