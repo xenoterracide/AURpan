@@ -1,0 +1,2 @@
+# CPAN Name  : MooseX-LazyRequire
+[% PROCESS '../wrapper.tt' %]
