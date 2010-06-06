@@ -1,0 +1,2 @@
+# CPAN Name  : Package-Stash
+[% PROCESS '../wrapper.tt' %]
