@@ -1,0 +1,2 @@
+# CPAN Name  : String-RewritePrefix
+[% PROCESS '../wrapper.tt' %]
