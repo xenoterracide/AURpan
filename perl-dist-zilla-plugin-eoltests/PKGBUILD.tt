@@ -1,0 +1,2 @@
+# CPAN Name  : Dist-Zilla-Plugin-EOLTests
+[% PROCESS '../wrapper.tt' %]
