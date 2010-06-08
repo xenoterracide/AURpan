@@ -1,0 +1,2 @@
+# CPAN Name  : App-cpanoutdated
+[% PROCESS '../wrapper.tt' %]
