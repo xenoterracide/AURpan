@@ -1,0 +1,2 @@
+# CPAN Name  : Net-SSH-Perl
+[% PROCESS '../wrapper.tt' %]
