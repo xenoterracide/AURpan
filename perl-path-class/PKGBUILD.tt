@@ -1,0 +1,2 @@
+# CPAN Name  : Path-Class
+[% PROCESS '../wrapper.tt' %]
