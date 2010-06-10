@@ -1,0 +1,2 @@
+# CPAN Name  : Module-Install
+[% PROCESS '../wrapper.tt' %]
