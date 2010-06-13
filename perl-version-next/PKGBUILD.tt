@@ -1,0 +1,2 @@
+# CPAN Name  : Version-Next
+[% PROCESS '../wrapper.tt' %]
