@@ -1,0 +1,2 @@
+# CPAN Name  : Module-Signature
+[% PROCESS '../wrapper.tt' %]
