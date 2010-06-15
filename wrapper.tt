@@ -47,13 +47,13 @@ build() {
 [% END -%]
 	cd "$DIST_DIR" &&
 [% IF is_makemaker -%]
-    perl Makefile.PL INSTALLDIRS=vendor &&
+    perl Makefile.PL &&
     make &&
     [% UNLESS skiptest %]make test &&[%- END %]
     make DESTDIR="$pkgdir" install;
 [% END -%]
 [%- IF is_modulebuild -%]
-    perl Build.PL --installdirs=vendor --destdir="$pkgdir" &&
+    perl Build.PL &&
     perl Build &&
     [% UNLESS skiptest %]perl Build test &&[% END %]
     perl Build install;
