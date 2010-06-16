@@ -1,0 +1,2 @@
+# CPAN Name  : Catalyst-Devel
+[% PROCESS '../wrapper.tt' %]
