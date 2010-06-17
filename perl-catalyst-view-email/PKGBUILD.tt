@@ -1,0 +1,2 @@
+# CPAN Name  : Catalyst-View-Email
+[% PROCESS '../wrapper.tt' %]
