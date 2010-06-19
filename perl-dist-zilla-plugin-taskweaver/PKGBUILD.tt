@@ -1,0 +1,2 @@
+# CPAN Name  : Dist-Zilla-Plugin-TaskWeaver
+[% PROCESS '../wrapper.tt' %]
