@@ -1,4 +1,2 @@
 # CPAN Name  : Pod-Wordlist-hanekomu
-[% PROCESS '../wrapper.tt'
-	skiptest = 1
-%]
+[% PROCESS '../wrapper.tt' %]
