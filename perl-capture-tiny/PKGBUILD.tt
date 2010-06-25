@@ -1,0 +1,2 @@
+# CPAN Name  : Capture-Tiny
+[% PROCESS '../wrapper.tt' %]
