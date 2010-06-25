@@ -1,0 +1,2 @@
+# CPAN Name  : Class-C3
+[% PROCESS '../wrapper.tt' %]
