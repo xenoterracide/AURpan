@@ -1,0 +1,2 @@
+# CPAN Name  : Dist-Zilla-Plugin-Catalyst
+[% PROCESS '../wrapper.tt' %]
