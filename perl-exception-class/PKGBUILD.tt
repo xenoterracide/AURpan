@@ -1,0 +1,2 @@
+# CPAN Name  : Exception-Class
+[% PROCESS '../wrapper.tt' %]
