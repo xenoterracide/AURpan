@@ -1,0 +1,2 @@
+# CPAN Name  : Catalyst-Plugin-ConfigLoader
+[% PROCESS '../wrapper.tt' %]
