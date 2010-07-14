@@ -1,0 +1,2 @@
+# CPAN Name  : MooseX-Method-Signatures
+[% PROCESS '../wrapper.tt' %]
