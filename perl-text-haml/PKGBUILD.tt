@@ -1,0 +1,2 @@
+# CPAN Name  : Text-Haml
+[% PROCESS '../wrapper.tt' %]
