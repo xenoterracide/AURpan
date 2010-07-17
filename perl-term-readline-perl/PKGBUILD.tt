@@ -1,0 +1,2 @@
+# CPAN Name  : Term-ReadLine-Perl
+[% PROCESS '../wrapper.tt' %]
