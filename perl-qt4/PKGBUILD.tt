@@ -1,0 +1,2 @@
+# CPAN Name  : Qt4
+[% PROCESS '../wrapper.tt' %]
