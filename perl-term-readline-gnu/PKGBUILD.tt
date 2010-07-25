@@ -1,0 +1,4 @@
+# CPAN Name  : Term-ReadLine-Gnu
+[% PROCESS '../wrapper.tt' 
+	arch = ['i686' 'x86_64']
+%]
