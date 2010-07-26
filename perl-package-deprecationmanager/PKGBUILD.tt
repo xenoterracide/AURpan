@@ -1,0 +1,2 @@
+# CPAN Name  : Package-DeprecationManager
+[% PROCESS '../wrapper.tt' %]
