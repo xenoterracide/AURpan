@@ -1,0 +1,2 @@
+# CPAN Name  : Perl-MinimumVersion
+[% PROCESS '../wrapper.tt' %]
